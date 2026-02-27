@@ -38,6 +38,9 @@ public class PersonList {
             file.write(person.toString());
 
         }
+        catch (IOException e) {
+            System.out.println("Error writing to file");
+        }
 
     }
 
